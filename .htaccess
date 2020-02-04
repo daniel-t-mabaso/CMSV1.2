@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^goarmoured\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.goarmoured\.com$
+RewriteRule ^/?$ "https\:\/\/www\.goarmoured\.com\/construct\.php" [R=302,L]
+

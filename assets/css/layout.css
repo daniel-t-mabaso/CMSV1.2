@@ -1,0 +1,771 @@
+select{
+    color: inherit;
+}
+body, html{
+    margin: 0px;
+    padding: 0px;
+
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+
+    width: 100%;
+    min-height: 100%;
+}
+.option-hover:hover{
+    background-color: #7b7b7b;
+    color: white;
+    cursor: pointer;
+}
+#close-pop-up{
+    margin-right: 20px;
+}
+.tiny-height{
+    height: 35px;
+    line-height: 35px;
+}
+.auto-height{
+    height: fit-content;
+}
+
+#edit-page-panel{
+    height: 60px;
+}
+button, input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font: inherit;
+    line-height: normal;
+  }
+a{
+    all: unset;
+    width: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: none;
+}
+
+ul, ol{
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.shadow{
+    box-shadow: 1px 1px 2px 1px #7b7b7b;
+}
+
+
+ul, ol{
+    padding: 0px;
+    margin: 0px;
+}
+.center{
+    margin: 0 auto;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+
+.fit{
+    width: inherit;
+    object-fit: cover;
+}
+
+.fixed{
+    position: fixed !important;
+}
+
+.hide-overflow{
+    overflow: -moz-hidden-unscrollable;
+    overflow: hidden;
+}
+
+.inline-block{
+    display: inline-block;
+}
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.circle{
+    border-radius: 100% !important;
+}
+
+.rounded{
+    border-radius: 5px;
+}
+
+.border{
+    border: 1px solid !important;
+}
+
+.z-10{
+    z-index: 10;
+}
+.z-20{
+    z-index: 20 !important;
+}
+.z-30{
+    z-index: 30;
+}
+.z-40{
+    z-index: 40;
+}
+.z-50{
+    z-index: 50;
+}
+
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.nav-half-width{
+    width: 50%;
+}
+.list{
+    list-style: none;
+}
+
+.hide{
+    display: none !important;
+}
+.show{
+    display: block;
+}
+.small-margin{
+    margin: 10px;
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 10px;
+  }
+  #top{
+      position: fixed;
+      right: 0px;
+      bottom: 90px;
+      padding: 15px;
+      padding-bottom: 30px;
+      padding-top: 30px;
+      text-align: center;
+      opacity: 0;
+  }
+  .cursor{
+      cursor: pointer;
+  }
+  .fa-angle-up:before {
+    content: "\f106";
+}.fa {
+    display:block;
+    font: normal normal normal 18px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 3px;
+    background-color: #ddd;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+#screen-cover{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 11;
+    height: calc(100% - 110px);
+    background-color: #171717;
+    opacity: 0.7;
+}
+.bottom-0{
+    bottom: 0px;
+}
+.top-0{
+    top: 0px;
+}
+.right-0{
+    right: 0px;
+}
+.left-0{
+    left: 0px;
+}
+.section-edit{
+    position: fixed;
+    z-index: 15;
+    left: calc(50% - 1000px / 2 - 30px) !important;
+    top: calc(50% - 480px / 2 - 10px + 45px) !important;
+}
+.scroll{overflow-y: scroll; overflow-x: hidden;}
+.tiny-square{
+    width: 20px;
+    height: 20px;
+}
+#edit-page-panel, #section-edit, #edit-page-button{
+    display: none;
+}
+.edit-icon{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+}
+.mobile{
+    display: none;
+}
+@media only screen and (max-width: 360px){
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    .inline-block{
+        display: block;
+    }
+    .extra-small-side-padding{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        
+    }
+    .small-side-padding{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .medium-side-padding{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .large-side-padding{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .extra-small-padding{
+        padding: 5px;
+    }
+    .small-padding{
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .medium-padding{
+        padding: 30px;
+    }
+    .large-padding{
+        padding: 50px;
+    }
+    
+    .extra-small-width, .small-width, .medium-width, .large-width{
+        width: calc(290px - 20px * 2 - 30px * 2);
+    }
+    .half-width, .max-width{
+        width: 100%;
+    }
+    .logo-width{
+        width: 30px;
+    }
+    
+    
+    .extra-small-height{
+        height: 70px;
+    }
+    .small-height, .medium-height, .large-height{
+        height: fit-content;
+    }
+    .half-height{
+        height: 50%;
+    }
+    :not(.fixed).half-height, .max-height{
+        height: calc(100%);
+    }
+    .logo-height{
+        height: 50px;
+        line-height: 50px;
+    }
+    .logo-square{
+        width: 30px;
+        height: 30px;
+    }
+    .extra-small-square{
+        width: 50px;
+        height: 50px;
+    }
+    .small-square{
+        width: 70px;
+        height: 70px;
+    }
+    .medium-square{
+        width: 150px;
+        height: 150px;
+    }
+    .large-square{
+        width: 250px;
+        height: 250px;
+    }
+    
+.left, .right{
+    float:none;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+}
+@media only screen and (min-width: 360px) and (max-width: 450px){
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }  
+    .inline-block{
+        display: block;
+    }
+    .extra-small-side-padding{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        
+    }
+    .small-side-padding{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .medium-side-padding{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .large-side-padding{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .extra-small-padding{
+        padding: 5px;
+    }
+    .small-padding{
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .medium-padding{
+        padding: 30px;
+    }
+    .large-padding{
+        padding: 50px;
+    }
+    .extra-small-width, .small-width, .medium-width, .large-width{
+        width: calc(100% - 40px);
+    }
+        :not(.fixed).half-height, .max-width{
+        width: 100%;
+    }
+    .logo-width{
+        width: 30px;
+    }
+    
+    .extra-small-height{
+        height: 70px;
+    }
+    .small-height, .medium-height, .large-height{
+        height: fit-content;
+    }
+    .half-height{
+        height: 50%;
+    }
+    .max-height{
+        height: 100%;
+    }
+    .logo-height{
+        height: 50px;
+        line-height: 50px;
+    }
+    
+    .logo-square{
+        width: 30px;
+        height: 30px;
+    }
+    .extra-small-square{
+        width: 50px;
+        height: 50px;
+    }
+    .small-square{
+        width: 70px;
+        height: 70px;
+    }
+    .medium-square{
+        width: 150px;
+        height: 150px;
+    }
+    .large-square{
+        width: 450px;
+        height: 450px;
+    }
+    .left, .right{
+        float:none;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 736px){
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    .extra-small-side-padding{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        
+    }
+    .small-side-padding{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .medium-side-padding{
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+    .large-side-padding{
+        padding-left: 70px !important;
+        padding-right: 70px !important;
+    }
+    .extra-small-padding{
+        padding: 5px;
+    }
+    .small-padding{
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .medium-padding{
+        padding: 30px;
+    }
+    .large-padding{
+        padding: 50px;
+    }
+    
+    .extra-small-width, .small-width, .medium-width, large-width{
+        width: calc(100% - 25px * 2 );
+    }
+    :not(.fixed).half-height, .max-width{
+        width: 100%;
+    }
+    .logo-width{
+        width: 30px;
+    }
+    
+    .extra-small-height{
+        height: 70px;
+    }
+    
+    .small-height, .medium-height, .large-height{
+        height: fit-content;
+        display: block;
+    }
+    .half-height{
+        height: 50%;
+    }
+    .max-height{
+        height: 100%;
+    }
+    .logo-height{
+        height: 50px;
+        line-height: 50px;
+    }
+    
+    .logo-square{
+        width: 30px;
+        height: 30px;
+    }
+    .extra-small-square{
+        width: 50px;
+        height: 50px;
+    }
+    .small-square{
+        width: 70px;
+        height: 70px;
+    }
+    .medium-square{
+        width: 150px;
+        height: 150px;
+    }
+    .large-square{
+        width: 450px;
+        height: 450px;
+    }.left, .right{
+        float:none;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+}
+@media only screen and (min-width: 736px) and (max-width: 1200px){
+    .desktop{
+        display: block;
+    }
+    .container {
+        margin-left: 360px;
+      }
+
+      .extra-small-side-padding{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        
+    }
+    .small-side-padding{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+    .medium-side-padding{
+        padding-left: 70px !important;
+        padding-right: 70px !important;
+    }
+    .large-side-padding{
+        padding-left: 120px !important;
+        padding-right: 120px !important;
+    }
+    .extra-small-padding{
+        padding: 5px;
+    }
+    .small-padding{
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .medium-padding{
+        padding: 30px;
+    }
+    .large-padding{
+        padding: 50px;
+    }
+    
+    .extra-small-width{
+        width: 150px;
+    }
+    .small-width{
+        width: 230px;
+    }
+    .medium-width{
+        width: 500px;
+    }
+    .large-width{
+        width: 736px;
+    }
+    .half-width{
+        width: 50%;
+    }
+    .max-width{
+        width: 100%;
+    }
+    .logo-width{
+        width: 30px;
+    }
+    
+    .extra-small-height{
+        height: 70px;
+    }
+    .small-height{
+        height: 300px;
+    }
+    .medium-height, .large-height{
+        height: fit-content;
+        display: block;
+    }
+    .half-height{
+        height: 50%;
+    }
+    .max-height{
+        height: 100%;
+    }
+    .logo-height{
+        height: 50px;
+        line-height: 50px;
+    }
+    
+    .logo-square{
+        width: 30px;
+        height: 30px;
+    }
+    .extra-small-square{
+        width: 70px;
+        height: 70px;
+    }
+    .small-square{
+        width: 200px;
+        height: 200px;
+    }
+    .medium-square{
+        width: 450px;
+        height: 450px;
+    }
+    .large-square{
+        width: 700px;
+        height: 700px;
+    }
+    
+}
+@media only screen and (min-width: 1200px){
+    .desktop{
+        display: block;
+    }
+    .container {
+        margin-left: 360px;
+      }
+
+      .extra-small-side-padding{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        
+    }
+    .small-side-padding{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+    .medium-side-padding{
+        padding-left: 70px !important;
+        padding-right: 70px !important;
+    }
+    .large-side-padding{
+        padding-left: 120px !important;
+        padding-right: 120px !important;
+    }
+    .extra-small-padding{
+        padding: 5px;
+    }
+    .small-padding{
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .medium-padding{
+        padding: 30px;
+    }
+    .large-padding{
+        padding: 50px;
+    }
+    
+    .extra-small-width{
+        width: 200px;
+    }
+    .small-width{
+        width: 400px;
+    }
+    .medium-width{
+        width: 700px;
+    }
+    .large-width{
+        width: 1000px;
+    }
+    .half-width{
+        width: 50%;
+    }
+    .max-width{
+        width: 100%;
+    }
+    .logo-width{
+        width: 30px;
+    }
+    .small-input-width{
+        width: 150px;
+    }
+    .extra-small-height{
+        height: 70px;
+    }
+    .extra-small-line-height{
+        line-height: 70px;
+    }
+    
+    .minute-height{
+        height: 30px;
+    }
+    .small-height{
+        height: 300px;
+    }
+    .medium-small-height{
+        height: 450px;
+    }
+    .small-medium-height{
+        height:150px;
+    }
+    .medium-height{
+        height: 600px;
+    }
+    .large-height{
+        height: 800px;
+    }
+    .half-height{
+        height: 50%;
+    }
+    .max-height{
+        height: 100%;
+    }
+    .logo-height{
+        height: 50px;
+        line-height: 50px;
+    }
+    
+    .icon-square{
+        width: 17px;
+        height: 17px;
+    }
+    .logo-square{
+        width: 30px;
+        height: 30px;
+    }
+    .extra-small-square{
+        width: 70px;
+        height: 70px;
+    }
+    .small-square{
+        width: 200px;
+        height: 200px;
+    }
+    .medium-square{
+        width: 450px;
+        height: 450px;
+    }
+    .large-square{
+        width: 1000px;
+        height: 1000px;
+    }
+    #edit-page-panel, #section-edit, #edit-page-button{
+        display: block;
+    }
+    #edit-page-panel, #edit-page-button{
+        background-color: rgba(0, 0, 0, 0.85);
+    }
+    .minute-margin{
+        margin: 5px !important;
+    }
+    .extra-small-margin{
+        margin: 10px !important;
+    }
+    .small-margin{
+        margin: 25px !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .medium-margin{
+        margin: 46px !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+}

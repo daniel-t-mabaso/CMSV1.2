@@ -1,0 +1,221 @@
+
+
+/*Backgrounds*/
+
+.background-bg{
+
+    background-color: #fbfbfb !important;
+
+}
+
+
+
+.black-bg{
+
+    background-color: #000 !important;
+
+}
+
+
+
+.white-bg{
+
+    background-color: #fff;
+
+}
+
+
+
+.primary-bg{
+
+    background-color: #2C6648;
+
+}
+
+
+
+.secondary-bg{
+
+background-color: #5FB387;
+
+
+
+}
+
+
+
+.tertiary-bg{
+
+background-color: #A1FFCE;
+
+}
+
+
+
+.alternative-bg{
+
+background-color: #f4f4f4;
+
+
+
+}
+
+
+
+.success-bg{
+
+    background-color: greenyellow;
+
+}
+
+
+
+.caution-bg{
+
+    background-color: yellow;
+
+}
+
+
+
+.danger-bg{
+
+    background-color: red;
+
+
+
+}
+
+
+
+.regular-bg{
+
+    background-color: lightgreen !important;
+
+}
+
+.editor-bg{
+
+    background-color: lightskyblue !important;
+
+}
+
+.admin-bg{
+
+    background-color: cornflowerblue !important;
+
+}
+
+.root-bg{
+
+    background-color: gold !important;
+
+}
+
+
+
+/*font colours*/
+
+.black-txt{
+
+    color: #000;
+
+}
+
+
+
+.white-txt{
+
+    color: #fff;
+
+}
+
+.primary-txt{  
+
+    color: #2C6648;
+
+
+
+}
+
+.white-txt{  
+
+    color: #fff;
+
+
+
+}
+
+
+
+.secondary-txt{
+
+    color: #5FB387;
+
+
+
+}
+
+
+
+.tertiary-txt{
+
+    color: #A1FFCE;
+
+
+
+}
+
+.danger-txt{
+
+    color: red;
+
+}
+
+
+
+.alternative-txt{
+
+    color: gainsboro;
+
+}
+
+
+
+.success-txt{
+
+    color: yellowgreen;
+
+}
+
+.caution-txt{
+
+    color: rgb(255, 167, 167);
+
+}
+
+
+
+.success-bg{
+
+    background-color: yellowgreen;
+
+}
+
+.caution-bg{
+
+    background-color: rgb(165, 165, 165);
+
+}
+
+.neutral-bg{
+
+ background-color: rgb(87, 139, 190)   
+
+}
+
+.neutral-txt{
+
+ color: rgb(87, 139, 190)   
+
+}

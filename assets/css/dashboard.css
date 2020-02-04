@@ -1,0 +1,367 @@
+#row-dashboard{
+
+    display: none;
+
+}
+
+body{
+
+overflow-x: hidden;}
+
+#row-mobile-dashboard{
+
+    color: #181818;
+
+    text-align: center;
+
+    width: 300px;
+
+    margin: 0 auto;
+
+}
+
+.medium-media{
+
+    margin-top: calc(100% - 365px / 2);
+
+    text-align: center;
+
+}
+
+@media only screen and (min-width: 1200px){
+
+    body{
+
+        background-color: unset;}
+
+    
+
+    #row-mobile-dashboard{
+
+        display: none;
+
+    }
+
+    #row-header{
+
+        position: fixed;
+
+        top: 0px;
+
+        left: 0px;
+
+        z-index: 100;
+
+    }
+
+    .tab-quicklink-icon{
+
+        width: 150px;
+
+        margin-top: 40px;
+
+    }
+
+    #row-dashboard{
+
+
+
+        display: block;
+
+        min-height: 400px;
+
+        height: calc(100% - 135px);
+
+        width: 100%;
+
+        position: relative;
+
+        overflow: visible;
+
+    }
+
+    #dashboard-navigation{
+
+        min-height: calc(100% );
+
+        width: 250px;
+
+        position: fixed;
+
+        left: 0px;
+
+        top: 90px;
+
+        z-index: 10;
+
+        text-align: center;
+
+    }
+
+    #dashboard-navigation .heading{
+
+        padding: 20px;
+
+        padding-bottom: 10px;
+
+        text-align: left;
+
+    }
+
+    #dashboard-navigation .dashboard-navigation-item{
+
+        padding: 10px;
+
+        padding-left: 60px;
+
+        text-align: left;
+
+    }
+
+    .dashboard-navigation-item:hover{
+
+        background-color: gray;
+
+        color: white;
+
+        cursor: pointer;
+
+        border-right: 4px solid goldenrod;
+
+    }
+
+    #dashboard-panel{
+
+        height: calc(100% - 0px);
+
+        min-height: fit-content;
+
+        width: calc(100% - 250px - 0px);
+
+        position: relative;
+
+        float: right;
+
+        margin-right: 0px;
+
+    }
+
+    
+
+    #dashboard-actions{
+
+        height: calc(70px - 10px * 2);
+
+        width: calc(calc(92px * 2) + calc(10px * 2) * 2);
+
+        position: fixed;
+
+        right: 80px;
+
+        border-radius: 5px 5px 0px 0px;
+
+        bottom: 0px;
+
+        text-align: center;
+
+        background-color: #222;
+
+    }
+
+    #dashboard-edit-options-panel{
+
+        width: calc(100% - 30px * 2);
+
+        height: 90px;
+
+        position: fixed;
+
+        top: 90px;
+
+        left: 250px;
+
+        padding: 30px;
+
+    }
+
+    .dashboard-edit-options{
+
+        width: 500px;
+
+        height: 120px;
+
+        float: left;
+
+    }
+
+    .dashboard-action-item, input .dashboard-action-item {
+
+        border-radius: 3px;
+
+        height: 30px;
+
+        width: 90px;
+
+        font-size: 12px;
+
+        line-height: 30px;
+
+        margin: 10px;
+
+        float: left;
+
+        border: 0px solid;
+
+        box-shadow: unset;
+
+    }
+
+    .dashboard-action-item:hover{
+
+        color: white;
+
+        cursor: pointer;
+
+    }
+
+    .dashboard-form{
+
+        width: calc(250px + calc(10px * 2) + calc(5px * 2));
+
+        margin: 30px;
+
+        margin-top: 150px;
+
+        margin-left: 0px;
+
+        min-height: 400px;
+
+    }
+
+    .dashboard-input{
+
+        width: 900px;
+
+        padding: 10px;
+
+        margin: 5px;
+
+        margin-left: 0px;
+
+    }
+
+    #select_page{
+
+        width: 420px;
+
+    }
+
+    .dashboard-tabs{
+
+        padding-left: 90px;
+
+        padding-top: 0px;
+
+    }
+
+    #content-tab{
+
+        width: 1080px;
+
+        margin: 0 auto;
+
+        margin-bottom: 100px;
+
+    }
+
+    #dashboard-tab-quicklink-panel{
+
+        height: 200px;
+
+    }
+
+    .dashboard-tab-quicklink{
+
+        width: calc(80% / 2 - 30px * 2 - 4px * 2);
+
+        height: 270px;
+
+        line-height: 20px;
+
+        margin: 30px;
+
+        float: left;
+
+        text-align: center;
+
+        background-color: #bdbdbd; 
+
+        color: #181818;
+
+        border-radius: 5px;
+
+    }
+
+    .dashboard-tab-quicklink:hover{
+
+        border: 1px solid #181818;
+
+        width: calc(80% / 2 - 30px * 2 - 5px * 2);
+
+        height: 268px;
+
+        cursor: pointer;
+
+    }
+
+    .extra-small-width{
+
+        width: 400px;
+
+    }
+
+    
+
+    .small-width{
+
+        width: 600px;
+
+    }
+
+    .medium-width{
+
+        width: 750px;
+
+    }
+
+    .large-width{
+
+        width: 1080px;
+
+    }
+
+    .extra-small-height{
+
+        height: 70px;
+
+    }
+
+    .small-height{
+
+        height: 120px;
+
+    }
+
+    .medium-height{
+
+        height: 250px;
+
+    }
+
+    .large-height{
+
+        height: 400px;
+
+    }
+
+}
